@@ -13,6 +13,8 @@
 		39A1DDA41C5116DD003922D2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39A1DDA21C5116DD003922D2 /* Main.storyboard */; };
 		39A1DDA61C5116DD003922D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 39A1DDA51C5116DD003922D2 /* Assets.xcassets */; };
 		39A1DDA91C5116DD003922D2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39A1DDA71C5116DD003922D2 /* LaunchScreen.storyboard */; };
+		39A1DDB21C511706003922D2 /* MyNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 39A1DDB11C511706003922D2 /* MyNavigationController.m */; };
+		39A1DDB51C5117BF003922D2 /* PushedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 39A1DDB41C5117BF003922D2 /* PushedViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,10 @@
 		39A1DDA51C5116DD003922D2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		39A1DDA81C5116DD003922D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		39A1DDAA1C5116DD003922D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		39A1DDB01C511706003922D2 /* MyNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyNavigationController.h; sourceTree = "<group>"; };
+		39A1DDB11C511706003922D2 /* MyNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyNavigationController.m; sourceTree = "<group>"; };
+		39A1DDB31C5117BF003922D2 /* PushedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PushedViewController.h; sourceTree = "<group>"; };
+		39A1DDB41C5117BF003922D2 /* PushedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PushedViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +73,10 @@
 				39A1DDA71C5116DD003922D2 /* LaunchScreen.storyboard */,
 				39A1DDAA1C5116DD003922D2 /* Info.plist */,
 				39A1DD991C5116DD003922D2 /* Supporting Files */,
+				39A1DDB01C511706003922D2 /* MyNavigationController.h */,
+				39A1DDB11C511706003922D2 /* MyNavigationController.m */,
+				39A1DDB31C5117BF003922D2 /* PushedViewController.h */,
+				39A1DDB41C5117BF003922D2 /* PushedViewController.m */,
 			);
 			path = ViewWillTransistionToSize;
 			sourceTree = "<group>";
@@ -150,8 +160,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				39A1DDA11C5116DD003922D2 /* ViewController.m in Sources */,
+				39A1DDB21C511706003922D2 /* MyNavigationController.m in Sources */,
 				39A1DD9E1C5116DD003922D2 /* AppDelegate.m in Sources */,
 				39A1DD9B1C5116DD003922D2 /* main.m in Sources */,
+				39A1DDB51C5117BF003922D2 /* PushedViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

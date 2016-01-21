@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "PushedViewController.h"
 
 @interface ViewController ()
 
@@ -22,6 +23,10 @@
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (IBAction)doPush:(id)sender{
+    [self.navigationController pushViewController:[PushedViewController new] animated:YES];
 }
 
 @end
